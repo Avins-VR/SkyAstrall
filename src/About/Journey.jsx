@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ArcTimeline } from "../components/ArcTimeline";
+import { ArcTimeline } from "../Components/ArcTimeline";
 
 const data = [
   {
