@@ -1,0 +1,104 @@
+.gallery-container {
+  position: relative;
+  height: 650px; /* increased for visibility */
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-gradient {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 48px;
+  z-index: 10;
+}
+
+.gallery-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  perspective: 1500px;
+  transform-style: preserve-3d;
+}
+
+.gallery-track {
+width: 2600px; /* match cylinderWidth */
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+.gallery-item {
+  position: absolute;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 6%;
+  backface-visibility: hidden;
+}
+
+.gallery-img {
+  pointer-events: none;
+  height: 160px;
+  width: 320px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  object-fit: cover;
+  transition: 0.3s ease;
+  background: #222; /* fallback background */
+}
+
+.gallery-item:hover .gallery-img {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    padding: 4%;
+  }
+  .gallery-img {
+    height: 120px;
+    width: 220px;
+  }
+}
+.team-card {
+  background: #000000;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+  height:230px;
+  width: 270px;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  margin-left: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fefbff;
+  margin-bottom: 12px;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.team-position {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #479aff;
+}
