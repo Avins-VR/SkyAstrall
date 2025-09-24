@@ -6,6 +6,7 @@ import mailIcon from "../assets/mail.png";
 import Message from "./Message";
 import MagicCursor from "../Components/MagicCursor";
 import Background from "../Background";
+import Footer from "../Footer";
 
 const Contact = () => {
   const options = [
@@ -129,6 +130,7 @@ const Contact = () => {
         ))}
       </div>
       <Message />
+      <Footer />
     </motion.div>
   );
 };
