@@ -101,7 +101,7 @@ function Clientsucess() {
               }}le={{
                 backgroun
             > */}
-              <div className="flex items-center justify-between mt-0">
+              <div className="flex items-center justify-between mt-0 mb-[-20px]">
                 <img
                   src={t.img}
                   alt={t.name}
