@@ -193,7 +193,7 @@ const servicesData = [
       { icon: "bi-database", text: "SQL" },
     ],
     image:
-      "https://assets.cioinsight.com/uploads/2022/06/Data-Analyst-1024x682.jpeg",
+      "https://tfe-bd.sgp1.cdn.digitaloceanspaces.com/uploads/1637779651.jpg",
     button: "View Project",
     Achievements:
       "Created interactive dashboards that increased user retention by 20%. Processed and cleaned large datasets for analysis. Generated monthly performance reports for key stakeholders.",
