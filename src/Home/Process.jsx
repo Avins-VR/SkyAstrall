@@ -55,7 +55,7 @@ const ProcessFlow = () => {
           <div className="bg-[#E43636] text-white p-4 font-bold text-[26px] text-xl w-full flex items-center justify-start h-20" style={{ clipPath: 'polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%)' }}>
             STEP #1
           </div>
-          <div className="bg-gray-200 text-gray-800 p-6 shadow-md w-full rounded-b-md">
+          <div className="bg-[#f0c3fb] text-gray-800 p-6 shadow-md w-full rounded-b-md">
             <h3 className="font-bold text-[21px] mb-5">Discovery & Planning</h3>
             <ul className="list-disc ml-5 text-[16px] space-y-1">
               <li>Initial consultation to understand client requirements, goals, and expectations.</li>
@@ -76,7 +76,7 @@ const ProcessFlow = () => {
           <div className="bg-[#FAA533] text-white p-4 font-bold text-[26px] text-xl w-full flex items-center justify-start h-20" style={{ clipPath: 'polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%)' }}>
             STEP #2
           </div>
-          <div className="bg-gray-400 text-gray-800 p-6 shadow-md w-full rounded-b-md">
+          <div className="bg-[#D283FF] text-gray-800 p-6 shadow-md w-full rounded-b-md">
             <h3 className="font-bold text-[21px] mb-5">Design & Prototyping</h3>
             <ul className="list-disc ml-5 text-[16px] space-y-1">
               <li>Develop initial wireframes to visualize the structure and flow.</li>
@@ -97,7 +97,7 @@ const ProcessFlow = () => {
           <div className="bg-green-600 text-white p-4 font-bold text-[26px] text-xl w-full flex items-center justify-start h-20" style={{ clipPath: 'polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%)' }}>
             STEP #3
           </div>
-          <div className="bg-gray-200 text-gray-800 p-6 shadow-md w-full rounded-b-md">
+          <div className="bg-[#f0c3fb] text-gray-800 p-6 shadow-md w-full rounded-b-md">
             <h3 className="font-bold text-[21px] mb-5">Development & Testing</h3>
             <ul className="list-disc ml-5 text-[16px] space-y-1">
               <li>Set up the development environment and frameworks.</li>
@@ -118,7 +118,7 @@ const ProcessFlow = () => {
           <div className="bg-teal-600 text-white p-4 font-bold text-[26px] text-xl w-full flex items-center justify-start h-20" style={{ clipPath: 'polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%)' }}>
             STEP #4
           </div>
-          <div className="bg-gray-400 text-gray-800 p-6 shadow-md w-full rounded-b-md">
+          <div className="bg-[#D283FF] text-gray-800 p-6 shadow-md w-full rounded-b-md">
             <h3 className="font-bold text-[21px] mb-5">Deployment & Support</h3>
             <ul className="list-disc ml-5 text-[16px] space-y-1">
               <li>Deploy the application to the production environment.</li>

@@ -126,7 +126,7 @@ function Projects() {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className="relative m-[20px] p-6 rounded-3xl bg-black border border-gray-200 shadow-2xl cursor-pointer overflow-hidden"
+              className="relative m-[20px] p-6 rounded-3xl bg-gradient-to-r from-[#3C0663] via-[#5A108F] to-[#310055] shadow-2xl cursor-pointer overflow-hidden"
               variants={cardVariants}
               whileHover="hover"
               initial="hidden"
@@ -151,7 +151,7 @@ function Projects() {
 
               <div className="relative z-10">
                 <motion.h4
-                  className="text-2xl font-extrabold mb-4 bg-gradient-to-br from-indigo-600 via-teal-500 to-violet-600 bg-clip-text text-transparent"
+                  className="text-2xl font-extrabold mb-4 bg-gradient-to-r from-[#ffffff] via-[#dcdcddbd] to-[#D9E9CF] bg-clip-text text-transparent"
                   initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0, transition: { duration: 0.6 } }}
                   viewport={{ once: true }}

@@ -78,7 +78,7 @@ function Home() {
 
   return (
     <div className="relative text-white overflow-x-hidden
-      bg-[radial-gradient(at_top_left,#2f3d54_0%,transparent_70%),radial-gradient(at_top_right,#1e1e1ea3_0%,transparent_70%),radial-gradient(at_bottom_left,#5f848475_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
+      bg-[radial-gradient(at_top_left,#4a275e_0%,transparent_70%),radial-gradient(at_top_right,#34004a_0%,transparent_70%),radial-gradient(at_bottom_left,#140123_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
       bg-blend-lighten m-0 p-0"
     >
       <MagicCursor />
@@ -112,8 +112,8 @@ function Home() {
           <motion.div className="flex gap-20 mt-19 mb-8" variants={fadeInUp}>
             <motion.a
               href="/Achievements"
-              className="w-[280px] bg-gradient-to-r from-[#12ffccad] via-[#97dfe7b2] to-[#1dcaffa7] text-[#161616] font-bold text-[20px] px-8 py-5 rounded-lg transition hover:scale-105 hover:shadow-lg"
-              whileHover={{ scale: 1.07, boxShadow: "0px 15px 25px rgba(0,255,255,0.4)" }}
+              className="w-[280px] bg-gradient-to-r from-[#55adcd62] via-[#6eafb9b2] to-[#0d69a6a7] text-[#161616] font-bold text-[20px] px-8 py-5 rounded-lg transition hover:scale-105 hover:shadow-lg"
+              whileHover={{ scale: 1.07, boxShadow: "0px 15px 25px rgba(67, 197, 230, 0.28)" }}
             >
               Explore Our Work ➔
             </motion.a>
@@ -134,7 +134,7 @@ function Home() {
                 href={`https://${platform}.com`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-14 h-14 flex items-center justify-center rounded-full border border-gray-600 text-gray-300 hover:text-white hover:border-white transition"
+                className="w-14 h-14 flex items-center justify-center rounded-full border border-gray-600 bg-gray-900 text-gray-300 hover:text-white hover:border-white transition"
                 whileHover={{ scale: 1.2, rotate: 10 }}
                 transition={{ type: "spring", stiffness: 300 }}
                 initial={{ opacity: 0, y: 20 }}

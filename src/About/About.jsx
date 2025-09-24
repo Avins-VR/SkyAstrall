@@ -62,7 +62,7 @@ function About() {
   return (
     <div
       className="relative text-white overflow-x-hidden
-      bg-[radial-gradient(at_top_left,#2f3d54_0%,transparent_70%),radial-gradient(at_top_right,#1e1e1ea3_0%,transparent_70%),radial-gradient(at_bottom_left,#5f848475_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
+      bg-[radial-gradient(at_top_left,#4a275e_0%,transparent_70%),radial-gradient(at_top_right,#34004a_0%,transparent_70%),radial-gradient(at_bottom_left,#140123_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
       bg-blend-lighten m-0 p-0"
     >
       <MagicCursor />

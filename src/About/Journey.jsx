@@ -90,7 +90,7 @@ function Journey() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
-        className="relative w-full max-w-[1300px] ml-[70px] p-6 rounded-[30px] border-2 border-gray-600 bg-black timeline-box shadow-2xl"
+        className="relative w-full max-w-[1300px] ml-[70px] p-6 rounded-[30px] border-2 border-gray-600 bg-[#1e0134] timeline-box shadow-2xl"
       >
         <motion.div variants={item}>
           <ArcTimeline data={data} />

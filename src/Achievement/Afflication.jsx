@@ -84,7 +84,7 @@ function Affiliation() {
 
           <motion.a
             href="/Contact"
-            className="w-[270px] bg-gradient-to-r from-[#12ffccad] via-[#97dfe7b2] to-[#1dcaffa7] text-[#161616] font-bold text-[20px] px-5 py-4 rounded-lg shadow-lg"
+            className="w-[270px] bg-gradient-to-r from-[#0d69a6a7] via-[#6eafb9b2] to-[#0d69a6a7] text-[#161616] font-bold text-[20px] px-5 py-4 rounded-lg shadow-lg"
             whileHover={{ scale: 1.08, boxShadow: "0 0 20px rgba(29,202,250,0.6)" }}
             transition={{ type: "spring", stiffness: 150 }}
           >

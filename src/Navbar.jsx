@@ -11,7 +11,7 @@ const Navbar = React.memo(() => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center shadow-md bg-neutral-900 py-8 px-12">
+    <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center shadow-md bg-[#0b000f] py-8 px-12">
       {/* Logo */}
       <div className="text-4xl font-bold bg-gradient-to-r from-[#7cade6] via-[#73d1c9] to-[#649cc1] bg-clip-text text-transparent">
         SkyAstrall

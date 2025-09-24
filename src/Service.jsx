@@ -202,7 +202,10 @@ const servicesData = [
 function ServiceCard({ service, onShowDetails }) {
   return (
     <motion.div
-      className="mt-[50px] mb-[100px] relative flex flex-col lg:flex-row items-center justify-between bg-[black]/90 rounded-2xl overflow-hidden shadow-lg backdrop-blur-md max-w-6xl mx-auto mb-10 h-[450px] cursor-pointer"
+      className="mt-[50px] mb-[100px] relative flex flex-col lg:flex-row items-center justify-between 
+rounded-2xl overflow-hidden shadow-lg backdrop-blur-md max-w-6xl mx-auto mb-10 h-[450px] cursor-pointer
+bg-gradient-to-r from-[#310055] via-[#6818A5] to-[#AB51E3]"
+
       whileHover={{ scale: 1.03}}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -218,7 +221,7 @@ function ServiceCard({ service, onShowDetails }) {
   whileHover={{ scale: 1.02 }}
 >
   <div className="flex items-center space-x-4 mb-[20px]">
-    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-black border border-white">
+    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-[#19183B] border border-white">
       <i className={`bi ${service.icon} text-white text-[22px]`} />
     </div>
     <h2 className="text-[35px] text-[#d5f2fd] font-bold">{service.title}</h2>
@@ -231,7 +234,7 @@ function ServiceCard({ service, onShowDetails }) {
     {service.tags.map((tag, i) => (
       <motion.span
         key={i}
-        className="flex items-center mt-[15px] mb-[20px] gap-2 px-6 py-2.5 bg-black border border-white rounded-full text-sm text-gray-200"
+        className="flex items-center mt-[15px] mb-[20px] gap-2 px-6 py-2.5 border border-white rounded-full text-sm text-gray-200"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 + i * 0.1, duration: 0.5, ease: "easeOut" }}
@@ -290,7 +293,7 @@ export default function ServicesList() {
 
   return (
     <div className="relative text-white overflow-x-hidden
-      bg-[radial-gradient(at_top_left,#2f3d54_0%,transparent_70%),radial-gradient(at_top_right,#1e1e1ea3_0%,transparent_70%),radial-gradient(at_bottom_left,#5f848475_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
+      bg-[radial-gradient(at_top_left,#4a275e_0%,transparent_70%),radial-gradient(at_top_right,#34004a_0%,transparent_70%),radial-gradient(at_bottom_left,#140123_0%,transparent_80%),linear-gradient(180deg,#070707_0%,#020202_100%)]
       bg-blend-lighten m-0 p-0"
     >
       <MagicCursor />

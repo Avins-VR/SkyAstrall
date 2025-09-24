@@ -59,7 +59,7 @@ function Message() {
       <div className="flex flex-col lg:flex-row gap-28">
         {/* Left Column - Contact Form */}
         <motion.div
-          className="flex-1 bg-[#101217] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-14"
+          className="flex-1 bg-[#100313] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-14"
           variants={itemVariants}
         >
           <div className="flex flex-col gap-8">
@@ -115,7 +115,7 @@ function Message() {
           variants={sectionVariants}
         >
           <motion.div
-            className="bg-[#101217] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-14"
+            className="bg-[#100313] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-14"
             variants={itemVariants}
           >
             <motion.h3 variants={itemVariants} className="text-xl font-bold uppercase flex items-center gap-4 mb-8 text-gray-300">
@@ -171,7 +171,7 @@ function Message() {
 
           {/* Availability */}
           <motion.div
-            className="bg-[#101217] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-10"
+            className="bg-[#100313] rounded-2xl shadow-[0_0_7px_#87c3ff55] p-10"
             variants={itemVariants}
           >
             <motion.h4 variants={itemVariants} className="text-lg uppercase flex items-center gap-3 text-white mb-4">

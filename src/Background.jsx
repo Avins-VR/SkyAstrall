@@ -13,7 +13,7 @@ const FloatingSquaresBackground = () => {
       delay: Math.random() * 1, // 0-8 seconds delay
       duration: Math.random() * 20 + 15, // 15s–35s duration
       //opacity: Math.random() * 0.15 + 0.05, // 0.05-0.2 opacity for variety
-      opacity: 0.03 }));
+      opacity: 0.035 }));
     setSquares(generated);
   }, []);
 

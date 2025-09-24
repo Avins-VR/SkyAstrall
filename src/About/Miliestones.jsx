@@ -84,7 +84,7 @@ function Milestones() {
       </motion.p>
 
       {/* Card Container */}
-      <div className="flex justify-center items-center py-12 px-6">
+      <div className="flex justify-center items-center py-12 px-6 ">
         <SpotlightCard className="w-full max-w-[1400px]">
           <div className="rounded-3xl shadow-lg h-[580px] w-full flex flex-row items-center justify-between p-12">
             {/* Left Side Image */}
